@@ -21,12 +21,12 @@ for iter = 1:num_iters
     %temp_1 = theta(2) - (alpha/m) * sum(X * theta - y); %*X;
     
     %disp(length(temp_1))
-    for item=1:m
-        temp_0 =(1/m)*sum((theta(1)+theta(2).*X(item,2))-y(item)); %derivative theta0
-        temp_1 =((1/m)*sum((theta(1)+theta(2).*X(item,2))-y(item)))*(X(item,2)); %derivative theta1
-        %Updating the values of theta
-        theta(1)=theta(1)-alpha*(temp_0);
-        theta(2)=theta(2)-alpha*(temp_1);
+    
+    temp_0 =(1/m)*sum((theta(1)+theta(2).*X(:,2))-y); %derivative theta0
+    temp_1 =(1/m)*sum((((theta(1)+theta(2).*X(:,2))-y)).*X(:,2)); %derivative theta1
+    %Updating the values of theta
+    theta(1)=theta(1)-alpha*(temp_0);
+    theta(2)=theta(2)-alpha*(temp_1);
     
     % ============================================================
 

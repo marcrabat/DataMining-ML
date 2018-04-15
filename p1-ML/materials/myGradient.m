@@ -2,7 +2,7 @@
 fprintf('Running Gradient Descent ...\n')
 
 X = [ones(m, 1), data(:,1)]; % Add a column of ones to x
-theta = zeros(2, 1); % initialize fitting parameters
+theta = zeros(2, 1); % initialize fitting parametersx
 
 % Some gradient descent settings
 iterations = 1500;
@@ -19,6 +19,7 @@ theta = gradientDescent(X, y, theta, alpha, iterations);
 fprintf('Theta found by gradient descent: ');
 fprintf('%f %f \n', theta(1), theta(2));
 
+plot(X(:,2), y, 'o');
 % Plot the linear fit
 hold on; % keep previous plot visible
 plot(X(:,2), X*theta, '-')
