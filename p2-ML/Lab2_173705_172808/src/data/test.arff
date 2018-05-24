@@ -1,0 +1,23 @@
+@relation bank.data-weka.filters.supervised.instance.Resample-B1.0-S1-Z100.0
+
+@attribute age numeric
+@attribute job {unemployed,services,management,blue-collar,self-employed,technician,entrepreneur,admin.,student,housemaid,retired,unknown}
+@attribute marital {married,single,divorced}
+@attribute education {primary,secondary,tertiary,unknown}
+@attribute default {yes,no}
+@attribute balance numeric
+@attribute housing {yes,no}
+@attribute loan {yes,no}
+@attribute contact {cellular,telephone,unknown}
+@attribute day numeric
+@attribute month {jan,feb,mar,apr,may,jun,jul,aug,oct,sep,nov,dec}
+@attribute duration numeric
+@attribute campaign numeric
+@attribute pdays numeric
+@attribute previous numeric
+@attribute poutcome {success,failure,unknown,other}
+@attribute y {yes,no}
+
+@data
+66, retired, married, primary, no, 206, no, no, cellular, 9, feb, 479, 1, -1, 0, unknown, ?
+54, technician, married, tertiary, no, 876, no, no, cellular, 27, oct, 269, 3, 541, 3, success, ?

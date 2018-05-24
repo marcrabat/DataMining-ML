@@ -1,0 +1,48 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     bank.data-weka.filters.supervised.instance.Resample-B1.0-S1-Z100.0
+Instances:    4521
+Attributes:   17
+              age
+              job
+              marital
+              education
+              default
+              balance
+              housing
+              loan
+              contact
+              day
+              month
+              duration
+              campaign
+              pdays
+              previous
+              poutcome
+              y
+Evaluation mode:10-fold cross-validation
+
+
+
+=== Attribute selection 10 fold cross-validation (stratified), seed: 1 ===
+
+average merit      average rank  attribute
+ 0.263 +- 0.009     1   +- 0      12 duration
+ 0.087 +- 0.005     2   +- 0      14 pdays
+ 0.068 +- 0.002     3.4 +- 0.49   11 month
+ 0.068 +- 0.002     3.6 +- 0.49   16 poutcome
+ 0.038 +- 0.002     5.1 +- 0.3    15 previous
+ 0.036 +- 0.002     6   +- 0.45    9 contact
+ 0.028 +- 0.002     7.4 +- 0.66    1 age
+ 0.028 +- 0.002     7.6 +- 0.66    6 balance
+ 0.025 +- 0.001     8.9 +- 0.3     2 job
+ 0.022 +- 0.001    10   +- 0       7 housing
+ 0.015 +- 0.001    11.3 +- 0.46   13 campaign
+ 0.013 +- 0.001    12.4 +- 0.66    8 loan
+ 0.011 +- 0.005    13   +- 1.26   10 day
+ 0.011 +- 0.001    13.3 +- 0.64    3 marital
+ 0.004 +- 0.001    15   +- 0       4 education
+ 0     +- 0        16   +- 0       5 default
+
