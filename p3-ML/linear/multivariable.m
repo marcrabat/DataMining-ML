@@ -70,7 +70,13 @@ fprintf('\n');
 % ====================== YOUR CODE HERE ======================
 % Recall that the first column of X is all-ones. Thus, it does
 % not need to be normalized.
-price = [1, 1650, 3] * theta; 
+x0 = 1;
+x1 = 1650;
+x2 = 3;
+prediction = [x0 x1 x2];
+prediction(1,2) = (prediction(1,2) - mu(1,1))/(sigma(1,1));
+prediction(1,3) = (prediction(1,3) - mu(1,2))/(sigma(1,2));
+price = prediction * theta;
 
 
 % ============================================================

@@ -26,19 +26,11 @@ sigma = zeros(1, size(X, 2));
 % Hint: You might find the 'mean' and 'std' functions useful.
 %      
 m = size(X , 1);
-
-%Mean Computation
 mu = mean(X);
-%Substracting the mean
-for i = 1:m
-    X_norm(i,:) = X(i,:)-mu;
-end
-
-%Std_dev Computation
 sigma = std(X);
-%Dividing by standard deviation
+
 for i = 1 : m
-	X_norm(i, :) = X_norm(i, :) ./ sigma;
+	X_norm(i, :) = (X(i, :)-mu) ./ sigma;
 end
 % ============================================================
  
