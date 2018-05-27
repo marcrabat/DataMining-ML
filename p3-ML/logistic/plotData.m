@@ -16,7 +16,12 @@ figure; hold on;
 % Find Indices of Positive and Negative Examples
 
 % Plot Examples
+%Find that data in prediction which are positive / negative
+pos = find(y == 1);
+neg = find(y == 0);
 
+plot(X(pos , 1) , X(pos , 2) , 'g+');
+plot(X(neg , 1) , X(neg , 2) , 'ro');
 
 % =========================================================================
 

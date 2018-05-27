@@ -95,7 +95,7 @@ fprintf(' %f \n', theta);
 plotDecisionBoundary(theta, X, y);
 
 % Put some labels 
-hold on;
+%hold on;
 % Labels and Legend
 xlabel('Exam 1 score')
 ylabel('Exam 2 score')
