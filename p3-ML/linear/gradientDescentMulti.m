@@ -19,7 +19,13 @@ for iter = 1:num_iters
 
 	%Compute theta(1), theta(2) and theta(3)
     
-    
+    temp_0 =(1/m)*sum((theta(1)+theta(2).*X(:,2) + theta(3).*X(:,3))-y); %derivative theta0
+    temp_1 =(1/m)*sum((((theta(1)+theta(2).*X(:,2) + theta(3).*X(:,3))-y)).*X(:,2)); %derivative theta1
+    temp_2 =(1/m)*sum((((theta(1)+theta(2).*X(:,2) + theta(3).*X(:,3))-y)).*X(:,3)); %derivative theta2
+    %Updating the values of theta
+    theta(1)=theta(1)-alpha*(temp_0);
+    theta(2)=theta(2)-alpha*(temp_1);
+    theta(3)=theta(3)-alpha*(temp_2);
     
     % ============================================================
 
