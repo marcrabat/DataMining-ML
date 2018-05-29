@@ -9,6 +9,7 @@ m = length(y); % number of training examples
 
 % You need to return the following variables correctly 
 J = 0;
+h0 = zeros(m,1);
 grad = zeros(size(theta));
 
 % ====================== YOUR CODE HERE ======================
@@ -20,10 +21,18 @@ grad = zeros(size(theta));
 % Note: grad should have the same dimensions as theta
 %
 
+for i = 1 : m
+    h0(i) = sigmoid(X(i,:)*theta);
+end
+    
+for i = 1 : m
+    J = J + cost(h0(i),y(i)); 
+end
+J = J / m;
 
-J=
+grad=(1/m)*(X'*(h0-y));
 
-grad=(1/m)*(X'*(sigmoid(X*theta)-y));
+
 
 % =============================================================
 
