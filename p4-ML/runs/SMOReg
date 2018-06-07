@@ -1,0 +1,75 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -L 0.001 -W 1 -P 1.0E-12 -T 0.001 -V" -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     MBA2014-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    100
+Attributes:   23
+              Salary today($)
+              Weighted salary($)
+              Salary increase(%)
+              Value
+              Careers
+              Aims achieved
+              Placements
+              Employment (%)
+              Students employment (%)
+              Recommends
+              Female faculty(%)
+              Female students(%)
+              Female board(%)
+              Int. faculty(%)
+              Int. students(%)
+              Int. board(%)
+              Int. mobility
+              Int. course
+              Languages
+              PhD Faculty
+              PhD rank
+              Research
+              Predicted Rank 14
+Test mode:100-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.3426 * (normalized) Salary today($)
+ -       0.4374 * (normalized) Weighted salary($)
+ -       0.5536 * (normalized) Salary increase(%)
+ +       0.0143 * (normalized) Value
+ +       0.0155 * (normalized) Careers
+ +       0.0454 * (normalized) Aims achieved
+ +       0.1046 * (normalized) Placements
+ -       0.0989 * (normalized) Employment (%)
+ +       0.0051 * (normalized) Students employment (%)
+ -       0.0109 * (normalized) Recommends
+ -       0.0354 * (normalized) Female faculty(%)
+ +       0.2255 * (normalized) Female students(%)
+ -       0.1353 * (normalized) Female board(%)
+ -       0.0795 * (normalized) Int. faculty(%)
+ -       0.119  * (normalized) Int. students(%)
+ -       0.0616 * (normalized) Int. board(%)
+ +       0.1933 * (normalized) Int. mobility
+ +       0.0329 * (normalized) Int. course
+ +       0.0413 * (normalized) Languages
+ -       0.1322 * (normalized) PhD Faculty
+ +       0.087  * (normalized) PhD rank
+ +       0.1674 * (normalized) Research
+ +       0.9261
+
+
+
+Number of kernel evaluations: 5050 (97.982% cached)
+
+Time taken to build model: 0.09 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9063
+Mean absolute error                     10.1095
+Root mean squared error                 12.3187
+Relative absolute error                 40.0816 %
+Root relative squared error             42.2847 %
+Total Number of Instances              100     

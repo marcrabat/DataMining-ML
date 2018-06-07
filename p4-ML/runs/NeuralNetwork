@@ -1,0 +1,339 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     MBA2014-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    100
+Attributes:   23
+              Salary today($)
+              Weighted salary($)
+              Salary increase(%)
+              Value
+              Careers
+              Aims achieved
+              Placements
+              Employment (%)
+              Students employment (%)
+              Recommends
+              Female faculty(%)
+              Female students(%)
+              Female board(%)
+              Int. faculty(%)
+              Int. students(%)
+              Int. board(%)
+              Int. mobility
+              Int. course
+              Languages
+              PhD Faculty
+              PhD rank
+              Research
+              Predicted Rank 14
+Test mode:100-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    0.8631004776810125
+    Node 1    -0.8868580883894764
+    Node 2    0.7946081917972595
+    Node 3    0.3814326853131288
+    Node 4    0.08863534112182087
+    Node 5    -0.11883054246692791
+    Node 6    -0.9559130284461608
+    Node 7    0.9279840945436342
+    Node 8    -0.12436183671044053
+    Node 9    -1.1693050362166113
+    Node 10    -1.043637283134746
+    Node 11    0.16058351427608883
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.6784269016021272
+    Attrib Salary today($)    0.22111216510994744
+    Attrib Weighted salary($)    0.3476972655582507
+    Attrib Salary increase(%)    0.18690365976355672
+    Attrib Value    0.7126387839449285
+    Attrib Careers    0.12399311741319419
+    Attrib Aims achieved    0.619769302304492
+    Attrib Placements    -0.19902450782193984
+    Attrib Employment (%)    -0.2597282845532513
+    Attrib Students employment (%)    -0.3824824995929495
+    Attrib Recommends    0.7005959650156678
+    Attrib Female faculty(%)    -0.5476294238174453
+    Attrib Female students(%)    0.24610646540777203
+    Attrib Female board(%)    0.2675561058535203
+    Attrib Int. faculty(%)    -0.02705302318117735
+    Attrib Int. students(%)    0.027285185179586415
+    Attrib Int. board(%)    0.6435694104940908
+    Attrib Int. mobility    0.1798525504540113
+    Attrib Int. course    0.06867205486638069
+    Attrib Languages    0.32483924155559085
+    Attrib PhD Faculty    -0.011636701637015103
+    Attrib PhD rank    -0.20447703692160457
+    Attrib Research    -0.5448977812164782
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.368966072638873
+    Attrib Salary today($)    -0.48105430336105487
+    Attrib Weighted salary($)    -0.6251626200099448
+    Attrib Salary increase(%)    -0.6050906041032403
+    Attrib Value    0.2364273875378776
+    Attrib Careers    -0.24037089325155542
+    Attrib Aims achieved    0.25274724234721246
+    Attrib Placements    0.8994317613538961
+    Attrib Employment (%)    -0.1436905026186818
+    Attrib Students employment (%)    -0.2817323308130965
+    Attrib Recommends    0.4168496729338063
+    Attrib Female faculty(%)    -0.37408762459063033
+    Attrib Female students(%)    0.4977228106861344
+    Attrib Female board(%)    0.5821804962276416
+    Attrib Int. faculty(%)    -0.4503726157693255
+    Attrib Int. students(%)    -0.04444413436970481
+    Attrib Int. board(%)    0.23305116811911905
+    Attrib Int. mobility    0.6535272798593772
+    Attrib Int. course    0.01340560493671396
+    Attrib Languages    0.5328910394573231
+    Attrib PhD Faculty    -0.38023995021138285
+    Attrib PhD rank    -0.06498101733021595
+    Attrib Research    0.990351700622113
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.6163589172933378
+    Attrib Salary today($)    0.1756731692294454
+    Attrib Weighted salary($)    0.06595327952681365
+    Attrib Salary increase(%)    0.060387549473317474
+    Attrib Value    0.11577416370661489
+    Attrib Careers    -0.2785051345545155
+    Attrib Aims achieved    -0.10959664656928889
+    Attrib Placements    0.09285102469035664
+    Attrib Employment (%)    -0.3316578960609886
+    Attrib Students employment (%)    -0.522916965254245
+    Attrib Recommends    -0.22148016172403606
+    Attrib Female faculty(%)    -0.043294261135037954
+    Attrib Female students(%)    0.10473016272848455
+    Attrib Female board(%)    0.2510137122634208
+    Attrib Int. faculty(%)    0.060526620649625815
+    Attrib Int. students(%)    -0.06983223385885251
+    Attrib Int. board(%)    0.1386049099220003
+    Attrib Int. mobility    0.14558679085348278
+    Attrib Int. course    0.07035138509050763
+    Attrib Languages    0.45016146619015396
+    Attrib PhD Faculty    -0.5404220130204387
+    Attrib PhD rank    0.08114688424127683
+    Attrib Research    0.0064442662303889325
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.608473530034919
+    Attrib Salary today($)    0.20611122971617013
+    Attrib Weighted salary($)    0.23904550350381573
+    Attrib Salary increase(%)    0.13498674177062386
+    Attrib Value    0.012533409597223894
+    Attrib Careers    -0.011500974343871408
+    Attrib Aims achieved    0.004419910888394068
+    Attrib Placements    -0.06788671983868626
+    Attrib Employment (%)    -0.4121628925191656
+    Attrib Students employment (%)    -0.41324545582611927
+    Attrib Recommends    0.05254754283290505
+    Attrib Female faculty(%)    0.14974595585544137
+    Attrib Female students(%)    0.1138866707907789
+    Attrib Female board(%)    0.15831282854241324
+    Attrib Int. faculty(%)    0.07748121438323699
+    Attrib Int. students(%)    -0.1284474626314953
+    Attrib Int. board(%)    0.16854819196060986
+    Attrib Int. mobility    -0.023133331925987443
+    Attrib Int. course    0.022998746896730888
+    Attrib Languages    0.39228036988436166
+    Attrib PhD Faculty    -0.42916804603235664
+    Attrib PhD rank    0.01022955102524137
+    Attrib Research    -0.11634144548231723
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.6104711303272228
+    Attrib Salary today($)    0.21132837299711432
+    Attrib Weighted salary($)    0.3023527576929251
+    Attrib Salary increase(%)    0.16479854039015213
+    Attrib Value    -0.013965003119002627
+    Attrib Careers    0.024467095472581395
+    Attrib Aims achieved    0.150447053163579
+    Attrib Placements    -0.12362186390763034
+    Attrib Employment (%)    -0.5416573393190347
+    Attrib Students employment (%)    -0.3042256169245807
+    Attrib Recommends    0.25539373766438384
+    Attrib Female faculty(%)    0.13720711577813435
+    Attrib Female students(%)    0.2061921383197993
+    Attrib Female board(%)    0.20250095386914985
+    Attrib Int. faculty(%)    -0.0068003554234098975
+    Attrib Int. students(%)    -0.20956819553205586
+    Attrib Int. board(%)    0.2519431845429747
+    Attrib Int. mobility    -0.05347286707292884
+    Attrib Int. course    0.06089024212092489
+    Attrib Languages    0.3619080072208072
+    Attrib PhD Faculty    -0.35872338390795194
+    Attrib PhD rank    0.03741590313140027
+    Attrib Research    -0.16567197929356373
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.6785336305353986
+    Attrib Salary today($)    0.7849588089769226
+    Attrib Weighted salary($)    1.1212726060016942
+    Attrib Salary increase(%)    -0.04501564061563086
+    Attrib Value    0.043768856513835656
+    Attrib Careers    -0.12465858276252824
+    Attrib Aims achieved    -0.24132996944870366
+    Attrib Placements    0.477807699714682
+    Attrib Employment (%)    -0.5388774999319202
+    Attrib Students employment (%)    0.33101268713500825
+    Attrib Recommends    0.7658108727349087
+    Attrib Female faculty(%)    0.21022261838703832
+    Attrib Female students(%)    0.3999212279975093
+    Attrib Female board(%)    -0.036220559792077035
+    Attrib Int. faculty(%)    0.25421966382321054
+    Attrib Int. students(%)    0.04468609688984148
+    Attrib Int. board(%)    -0.5284590055202391
+    Attrib Int. mobility    -0.7654255091478044
+    Attrib Int. course    -0.6288559419599636
+    Attrib Languages    0.21852966651881348
+    Attrib PhD Faculty    -0.4311616151399877
+    Attrib PhD rank    0.0641281549160274
+    Attrib Research    -0.03819833368650418
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -2.4009982616378562
+    Attrib Salary today($)    -1.093238008066971
+    Attrib Weighted salary($)    -1.244453997478037
+    Attrib Salary increase(%)    -1.8136786004230834
+    Attrib Value    -0.4611114266369961
+    Attrib Careers    0.7515226134620396
+    Attrib Aims achieved    0.008806206366037498
+    Attrib Placements    -0.04395985784977306
+    Attrib Employment (%)    -0.5092283162556216
+    Attrib Students employment (%)    0.1337740134123886
+    Attrib Recommends    0.8481495695499442
+    Attrib Female faculty(%)    -0.66324855494311
+    Attrib Female students(%)    0.12548655695294397
+    Attrib Female board(%)    -0.3431692552281328
+    Attrib Int. faculty(%)    -0.23564186264020784
+    Attrib Int. students(%)    -0.408694142735135
+    Attrib Int. board(%)    -0.22465102608988752
+    Attrib Int. mobility    0.5291194218548971
+    Attrib Int. course    0.13676445915457291
+    Attrib Languages    0.6047637264343129
+    Attrib PhD Faculty    -0.18370684270971852
+    Attrib PhD rank    -0.2570660230956698
+    Attrib Research    0.830642027383033
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.6401758552094534
+    Attrib Salary today($)    0.2677387631473146
+    Attrib Weighted salary($)    0.31195201792759936
+    Attrib Salary increase(%)    0.08265029233600144
+    Attrib Value    0.03675446159576442
+    Attrib Careers    0.04807556001226141
+    Attrib Aims achieved    0.024492504393287692
+    Attrib Placements    -0.10332849167119904
+    Attrib Employment (%)    -0.4426786272222719
+    Attrib Students employment (%)    -0.26750993490401503
+    Attrib Recommends    0.2886761947044757
+    Attrib Female faculty(%)    0.10402619358413775
+    Attrib Female students(%)    0.10851763738128303
+    Attrib Female board(%)    0.026153034415264
+    Attrib Int. faculty(%)    0.039836772265444055
+    Attrib Int. students(%)    -0.08636378097849545
+    Attrib Int. board(%)    0.2701236568185066
+    Attrib Int. mobility    -0.13964389274127353
+    Attrib Int. course    -0.084830713837676
+    Attrib Languages    0.36867978911574706
+    Attrib PhD Faculty    -0.40535175051302325
+    Attrib PhD rank    0.11203983142920372
+    Attrib Research    -0.08814422377546235
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    1.7514811955829317
+    Attrib Salary today($)    1.1564420454244169
+    Attrib Weighted salary($)    1.386951212117659
+    Attrib Salary increase(%)    2.210992018751949
+    Attrib Value    -1.6045439497243865
+    Attrib Careers    -0.5986375137508588
+    Attrib Aims achieved    -0.12213040071155452
+    Attrib Placements    -0.29442949845799266
+    Attrib Employment (%)    1.2855142880278578
+    Attrib Students employment (%)    0.4335825166029381
+    Attrib Recommends    -0.26118467471397433
+    Attrib Female faculty(%)    0.6864229532936356
+    Attrib Female students(%)    0.16533814559954604
+    Attrib Female board(%)    0.7359143656430366
+    Attrib Int. faculty(%)    -0.6689089311728087
+    Attrib Int. students(%)    0.44973650136811727
+    Attrib Int. board(%)    0.3134533318511169
+    Attrib Int. mobility    -1.0667916640997168
+    Attrib Int. course    -0.37410557015970036
+    Attrib Languages    0.44427066793745973
+    Attrib PhD Faculty    0.8989075033606189
+    Attrib PhD rank    -2.037861428653587
+    Attrib Research    -0.6676488609435861
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.6162329373021824
+    Attrib Salary today($)    0.11056183554384985
+    Attrib Weighted salary($)    0.2604505551379237
+    Attrib Salary increase(%)    -0.3130750243992059
+    Attrib Value    0.34733683154709893
+    Attrib Careers    0.9203114271635624
+    Attrib Aims achieved    -0.3735123526941713
+    Attrib Placements    -0.42778009502277464
+    Attrib Employment (%)    -1.0039691975887126
+    Attrib Students employment (%)    -0.4802648184498132
+    Attrib Recommends    0.043063758903262195
+    Attrib Female faculty(%)    -0.34286571924572246
+    Attrib Female students(%)    0.09140277895171683
+    Attrib Female board(%)    -0.6088588394639148
+    Attrib Int. faculty(%)    0.12611466070742508
+    Attrib Int. students(%)    0.2715269132875857
+    Attrib Int. board(%)    0.3447292037542475
+    Attrib Int. mobility    0.878681224791564
+    Attrib Int. course    0.3965849802867468
+    Attrib Languages    0.6585370774299115
+    Attrib PhD Faculty    0.05984856735675309
+    Attrib PhD rank    1.6647588575572236
+    Attrib Research    0.19174777249933952
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.652292846484955
+    Attrib Salary today($)    0.23628951387523753
+    Attrib Weighted salary($)    0.1830835506231258
+    Attrib Salary increase(%)    0.13011032734904707
+    Attrib Value    0.06452113957866885
+    Attrib Careers    -0.04256450331975597
+    Attrib Aims achieved    0.013660192585828271
+    Attrib Placements    -0.08800333655546448
+    Attrib Employment (%)    -0.4446620031407297
+    Attrib Students employment (%)    -0.3905295300291293
+    Attrib Recommends    -0.031077565601510888
+    Attrib Female faculty(%)    0.1214073980522768
+    Attrib Female students(%)    0.07295947782924454
+    Attrib Female board(%)    0.13689374074920735
+    Attrib Int. faculty(%)    0.03205902209602343
+    Attrib Int. students(%)    -0.11905614914688663
+    Attrib Int. board(%)    0.10279179885614384
+    Attrib Int. mobility    0.015322065287643825
+    Attrib Int. course    -0.04770794106063087
+    Attrib Languages    0.3547396991208412
+    Attrib PhD Faculty    -0.4753884803383105
+    Attrib PhD rank    0.04626165712622875
+    Attrib Research    -0.09928290641793214
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 0.3 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9653
+Mean absolute error                      5.621 
+Root mean squared error                  7.5428
+Relative absolute error                 22.2859 %
+Root relative squared error             25.8911 %
+Total Number of Instances              100     
+

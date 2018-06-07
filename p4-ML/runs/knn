@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     MBA2014-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    100
+Attributes:   23
+              Salary today($)
+              Weighted salary($)
+              Salary increase(%)
+              Value
+              Careers
+              Aims achieved
+              Placements
+              Employment (%)
+              Students employment (%)
+              Recommends
+              Female faculty(%)
+              Female students(%)
+              Female board(%)
+              Int. faculty(%)
+              Int. students(%)
+              Int. board(%)
+              Int. mobility
+              Int. course
+              Languages
+              PhD Faculty
+              PhD rank
+              Research
+              Predicted Rank 14
+Test mode:100-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.7296
+Mean absolute error                     15.88  
+Root mean squared error                 20.548 
+Relative absolute error                 62.9604 %
+Root relative squared error             70.5324 %
+Total Number of Instances              100     
+

@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8
+Relation:     MBA2014-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    100
+Attributes:   23
+              Salary today($)
+              Weighted salary($)
+              Salary increase(%)
+              Value
+              Careers
+              Aims achieved
+              Placements
+              Employment (%)
+              Students employment (%)
+              Recommends
+              Female faculty(%)
+              Female students(%)
+              Female board(%)
+              Int. faculty(%)
+              Int. students(%)
+              Int. board(%)
+              Int. mobility
+              Int. course
+              Languages
+              PhD Faculty
+              PhD rank
+              Research
+              Predicted Rank 14
+Test mode:100-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+Predicted Rank 14 =
+
+     -0.4014 * Salary today($) +
+     -0.2663 * Weighted salary($) +
+     -0.5092 * Salary increase(%) +
+      0.0715 * Careers +
+      0.157  * Placements +
+     -0.2689 * Female faculty(%) +
+      0.4043 * Female students(%) +
+     -0.165  * Female board(%) +
+     -0.158  * Int. students(%) +
+      0.2589 * Int. mobility +
+      0.0773 * Int. course +
+     -0.5041 * PhD Faculty +
+      0.2568 * Research +
+    189.0411
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9193
+Mean absolute error                      9.2814
+Root mean squared error                 11.395 
+Relative absolute error                 36.7984 %
+Root relative squared error             39.1142 %
+Total Number of Instances              100     
+
